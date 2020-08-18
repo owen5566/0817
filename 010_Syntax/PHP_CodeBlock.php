@@ -8,10 +8,11 @@
 
 <?php 
   // It's PHP code block.
+  $a = '';
+  $x = "";
+  $y = '';
   
-  $x = 3;
-  
-  echo $x;
+  echo $a.$x.$y;
   
   // 區分大寫小寫
   // echo $X;

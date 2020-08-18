@@ -6,7 +6,8 @@ for ($iPos = 0; $iPos < $iLen; $iPos++)
 {
 	$ch = substr($sData, $iPos, 1);
 	$result = $ch . str_replace($ch, "", $result);
+	echo $result."<br>";
 
 }
-echo substr($result, 0, 5) . "-" . substr($result, 5, 5);
+// echo substr($result, 0, 5) . "-" . substr($result, 5, 5);
 ?>

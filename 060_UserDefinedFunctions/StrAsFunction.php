@@ -1,14 +1,15 @@
 <?php
 
-function test($i) {
-	return $i + 1;
+function test100($i) {
+	return $i + 100;
+}
+function test1($i) {
+	return $i +1 ;
 }
 
-// $x = 1;
-// echo test($x);
-
-$x = 2;
-$p = "test";
-echo $p($x);
+$x = 1;
+$y = 100;
+$bool = false;
+echo ("test".($bool?$x:$y))($x);
 
 ?>

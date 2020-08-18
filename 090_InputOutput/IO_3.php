@@ -19,7 +19,8 @@ function processFile($objFile) {
 	echo "File type: " . $objFile ["type"] . "<br />";
 	echo "File size: " . $objFile ["size"] . "<br />";
 	
-	echo "--  Done --";
+	echo "--  Done --<pre>";
+	print_r($objFile);
 	exit ();
 }
 

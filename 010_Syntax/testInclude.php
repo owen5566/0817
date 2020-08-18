@@ -1,6 +1,7 @@
 <?php
   include("testDefine.php");
-  // require("testDefine.php");
-
-  echo test;
+  include("testDefine.php");
+  $test = 456;
+  echo test.$test;
+  
 ?>

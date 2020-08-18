@@ -6,5 +6,6 @@ foreach ( $lines as $line_num => $line ) {
 	echo "#<i>$line_num</i> : " . 
 		 htmlspecialchars ( $line ) . "<br />\n";
 }
-
+echo "<pre>";
+print_r($lines);
 ?> 
